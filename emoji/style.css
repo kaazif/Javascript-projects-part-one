@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: salmon;
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.btn{
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    font-size: 5rem;
+    background: rgb(255, 255, 255, .2);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: darkblue;
+}
+.btn:hover{
+    filter: grayscale(0);
+}

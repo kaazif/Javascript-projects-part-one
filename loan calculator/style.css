@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.calcualtor{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: bold;
+}
+.calcualtor input{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+    font-weight: 600;
+}
